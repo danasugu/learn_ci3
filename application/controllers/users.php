@@ -11,6 +11,11 @@ class Users extends CI_Controller {
         //get an aray of objects from db
         $result = $this->user_model->get_users();
 
+        foreach ($result as $object) {
+            echo "<pre>";
+            echo $object->name;
+        }
+
     }
 
 }
