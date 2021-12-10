@@ -1,0 +1,13 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="...">
+      </a>
+    </div>
+  </div>
+</nav>
